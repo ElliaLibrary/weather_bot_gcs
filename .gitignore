@@ -1,0 +1,24 @@
+# 環境変数ファイル（パスワードなどが含まれるため絶対除外）
+.env
+
+# ログファイルやデータフォルダ
+log/
+data/
+
+# Pythonのキャッシュ
+__pycache__/
+*.pyc
+
+# デバッグ設定
+.vscode/
+
+# ローカル仮想環境（Cloud Functions/Cloud Runへのアップロード対象外）
+venv/
+
+# OAuthクライアントシークレット・トークン類
+client_secret*.json
+token.json
+
+# Jupyterの作業ファイル(コードのコピーが残るため)
+.ipynb_checkpoints/
+.virtual_documents/
